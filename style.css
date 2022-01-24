@@ -34,13 +34,16 @@
 
 }
 footer{
+    position: relative;
+
+
     margin-top: 150px;
     background: #0B0D17;
     height: 280px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 170px;
     padding-right: 200px;
 
    

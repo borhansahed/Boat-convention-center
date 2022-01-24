@@ -14,14 +14,14 @@
 </head>
 <body>
     <!-- header section  -->
-    <header >
+    <header  >
 
         <nav class=" container d-flex  justify-content-between align-items-center pb-5  pt-5">
            <div >
             <h4 class="fw-bolder">Boat Convention Center</h4>
            </div>
          
-            <ul class="nav fw-bold fs-6">
+            <ul class="nav fw-bold fs-6  d-none">
                 <li class="nav-item ">
                   <a  class="nav-link text-dark " aria-current="page" href="#">Home</a>
                 </li>
@@ -94,13 +94,13 @@
         </div>
     </header>
     <!-- main -------- -->
-    <main>
-      <section class="container  py-5">
-         <div class="d-flex align-items-center justify-content-center ">
-              <div>
+    <main >
+      <section class="container  py-5 ">
+         <div class="  d-flex align-items-center justify-content-center ">
+              <div >
                 <img class="img-fluid" src="./images/wedding.png" alt="">
-              </div>
-              <div class="ms-4 ">
+              </div >
+              <div class="ms-4  ">
                 <h3 class="fs-3 fw-bolder py-2">Every moment is Precious </h3>
                 <p class="py-2"> Life isn’t always easy and the grass on the other side can look greener.
                   <br> We often fail to appreciate the best moments while chasing after greener pastures.</p>
@@ -109,7 +109,7 @@
               </div>
                <!-- toast -->
               <div class="toast show   align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="d-flex  align-items-center   ">
+                <div class="d-flex  align-items-center    ">
                   <div class="toast-body  ">
                     <p class="" ><i class="fas fa-gift text-primary pe-1 "></i> 20% off on next booking</p>
                  </div>
@@ -129,7 +129,7 @@
           <h1 class="text-center fs-1 fw-bold py-5">Our package</h1>
           <div class="container ">
             <div class="row mx-auto my-5">
-              <div class="col-3 pt-5">
+              <div class=" col-12 col-md-6 col-lg-3 pt-5  ">
                     
                     <h1 class="fw-bold title-style">$300</h1>
                     <h3 class="fw-bold title-style">Business fair</h3>
@@ -149,7 +149,7 @@
                   
                 
               </div>
-              <div class="col-3 pt-5 ">
+              <div class="col-12 col-md-6 col-lg-3 py-5">
                 <h1 class="fw-bold title-style">$500</h1>
                 <h3 class="fw-bold title-style">wedding basic</h3>
                 <div>
@@ -165,7 +165,7 @@
                 </div>
                 <button class="choose-button rounded-pill fw-bolder  px-5 py-2 d-flex align-items-center">Choose plan</button>
               </div>
-              <div class="col-3 shadow border border-1 bg-primary text-white  rounded- p-4 shadow  position-relative ">
+              <div class="col-12 col-md-6 col-lg-3 pt-5 shadow border border-1 bg-primary text-white  rounded- p-4 shadow  position-relative ">
                 <h1 class="fw-bold ">$800</h1>
                 <h3 class="fw-bold ">Wedding plus</h3>
                 <div>
@@ -186,7 +186,7 @@
                 
                   
               </div>
-              <div class="col-3 pt-5 ">
+              <div class="col-12 col-md-6 col-lg-3 pt-5 ">
                 <h1 class="fw-bold title-style">$1200</h1>
                 <h3 class="fw-bold title-style">Corporate event</h3>
                 <div>
@@ -254,7 +254,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-6 py-5">
               <img class="img-fluid " style="width:546px height 364px ;" src="./images/people.png" alt="">
             </div>
            
@@ -263,25 +263,28 @@
 
         </section>
         <!-- footer section  -->
-    <footer>
-      <div class="text-white">
+    <footer class="position-relative">
+      
+        <div class="text-white ">
         
-        <p class="">© 2020 bike. All rights reserved</p>
-      </div>
-      <div class="d-flex justify-content-center align-items-center  ">
-        
-        <div>
-          <h5 class="text-white">Get the App</h5>
-          <div class="pb-2">
-            <a class="  btn btn-outline-dark btn-sm  " href="https://www.facebook.com/sah.sahed.3" target="_blank"
-          role="button"><i class=" text-white fab fa-apple pe-2"></i>Download on the <br>Apple Store</a>
-          </div>
-          <a class=" btn btn-outline-dark btn-sm" href="https://www.facebook.com/sah.sahed.3" target="_blank"
-          role="button"><i class="text-white fab fa-google-play pe-2"></i>Get it on Google  <br> Play Store</a>
+          <p class=" text-center position-absolute  ">© 2020 bike. All rights reserved</p>
         </div>
-      </div>
+        <div class="d-flex justify-content-center align-items-center  ">
+          
+          <div class="d-block position-absolute bottom-25  ">
+            <h5 class="text-white">Get the App</h5>
+            <div class="pb-2">
+              <a class="  btn btn-outline-dark btn-sm  " href="https://www.facebook.com/sah.sahed.3" target="_blank"
+            role="button"><i class=" text-white fab fa-apple pe-2"></i>Download on the <br>Apple Store</a>
+            </div>
+            <a class=" btn btn-outline-dark btn-sm" href="https://www.facebook.com/sah.sahed.3" target="_blank"
+            role="button"><i class="text-white fab fa-google-play pe-2"></i>Get it on Google  <br> Play Store</a>
+          </div>
+        </div>
+      
 
     </footer>
+    
     <!-- js script   -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    
