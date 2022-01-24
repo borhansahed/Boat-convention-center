@@ -6,3 +6,30 @@
   padding: 8px 10px;
   
 }
+.title-style{
+   color: #231D4F;
+   
+
+    
+}
+.font-awesome{
+    
+    color: rgba(84,69,194,255);
+    
+
+
+    
+    
+
+}
+.paragraph-style{
+    color: #848199;
+    font-weight: 400;
+
+}
+.choose-button{
+    background: #fef5fa;
+    border: none;
+    color: #478cf5;
+
+}
