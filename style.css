@@ -33,3 +33,16 @@
     color: #478cf5;
 
 }
+footer{
+    margin-top: 150px;
+    background: #0B0D17;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+   
+}
+ 
