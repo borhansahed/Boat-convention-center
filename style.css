@@ -1,7 +1,8 @@
 /* button style  */
-.button-color{
+.button-style{
   background: #3F87F5;
   text-decoration: none;
   color: white;
+  padding: 8px 10px;
   
 }
