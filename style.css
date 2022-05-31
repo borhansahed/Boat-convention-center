@@ -1,4 +1,9 @@
 /* button style  */
+
+.img-container img{
+    width: 5vh;
+
+}
 .button-style{
   background: #3F87F5;
   text-decoration: none;
